@@ -45,28 +45,8 @@ nosetests.xml
 .pytest_cache/
 coverage.xml
 *.cover
-.hypothesis/
-
-# Translations
-.nox/
->>>>>>> 5d8576abddc7fc48972e6df54396d5846a07cda5
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-<<<<<<< HEAD
-.pytest_cache/
-coverage.xml
-*.cover
-.hypothesis/
-=======
-coverage.xml
-*.cover
 *.py.cover
 .hypothesis/
-.pytest_cache/
-cover/
->>>>>>> 5d8576abddc7fc48972e6df54396d5846a07cda5
 
 # Translations
 *.mo
@@ -76,10 +56,7 @@ cover/
 *.log
 local_settings.py
 db.sqlite3
-<<<<<<< HEAD
-=======
 db.sqlite3-journal
->>>>>>> 5d8576abddc7fc48972e6df54396d5846a07cda5
 
 # Flask stuff:
 instance/
@@ -92,11 +69,11 @@ instance/
 docs/_build/
 
 # PyBuilder
-<<<<<<< HEAD
-=======
 .pybuilder/
->>>>>>> 5d8576abddc7fc48972e6df54396d5846a07cda5
 target/
+
+# Environment variables
+.env
 
 # Jupyter Notebook
 .ipynb_checkpoints
