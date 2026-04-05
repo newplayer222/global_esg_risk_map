@@ -54,11 +54,18 @@ pip install -r requirements.txt
 
 ### 2. 配置API密钥
 
-在`.env`文件中设置DashScope API密钥：
+1. 获取 DashScope API 密钥：
+   - 访问 [DashScope 控制台](https://dashscope.aliyun.com/)
+   - 注册或登录账户
+   - 在控制台中创建 API 密钥
 
-```
-DASHSCOPE_API_KEY=your_api_key_here
-```
+2. 在项目根目录手动创建 `.env` 文件，并添加以下内容：
+
+   ```
+   DASHSCOPE_API_KEY=your_actual_api_key_here
+   ```
+
+   **注意**：请将 `your_actual_api_key_here` 替换为您的真实 API 密钥。不要将 `.env` 文件提交到版本控制系统中。
 
 ### 3. 运行数据处理流水线
 
@@ -76,7 +83,7 @@ python src/run_selective_pipeline.py
 python src/web/app.py
 ```
 
-访问 `http://127.0.0.1:5000` 查看地图。
+访问 `http://127.0.0.1:5050` 查看地图。
 
 ## 🎛️ 交互式流水线配置
 
